@@ -3,7 +3,7 @@ void main(List<String> args) {
   nama.addAll({'Tempat Lahir': 'Lamongan'});
   nama.remove('Kelas');
   print(nama);
-  nama.forEach((key, value) => print('${key}:${value}'));
+  nama.forEach((key, value) => print('$key:$value'));
   nama.clear();
   print(nama);
 }
